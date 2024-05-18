@@ -1,0 +1,21 @@
+name: 新機能開発
+description: 新機能開発はこちら
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: 概要
+      description: 開発する機能の概要を簡潔に記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 理由
+      description: なぜこの機能を開発するのかを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: supplement
+    attributes:
+      label: 補足
