@@ -31,6 +31,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: expect
+    attributes:
+      label: 期待する挙動
+      description: 期待する挙動を記載してください。
+    validations:
+      required: true
+  - type: textarea
     id: supplement
     attributes:
       label: 補足
